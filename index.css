@@ -1,0 +1,61 @@
+body{
+    padding: 0;
+    margin: 0;
+  background-image: url(img/table.png);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+ text-align: center;
+ color: white;
+ font-family: "Roboto", sans-serif;
+ font-weight: 200;
+ user-select: none;
+
+}
+.cards{
+    width: 100%;
+    height: 100%;
+}
+
+.card-slot{
+    border: 2px solid black;
+    height: 205px;
+    width: 155px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.container{
+align-self: center;
+margin: auto;
+
+}
+.container .card-slot{
+    margin-bottom: 1rem;
+}
+.draw-card{
+    margin-top: auto;
+    padding: 0.5rem;
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.deck{
+
+    padding: 0.5rem 2rem;
+    background-color: yellow;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.top{
+    display: flex;
+}
+.top p{
+    margin-left: 1rem;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: yellow;
+}
